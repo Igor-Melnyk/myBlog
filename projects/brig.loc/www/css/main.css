@@ -1,0 +1,166 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #7e7e7e;
+	background: #fdfcfb;
+}
+header {
+	margin: 100px 0;
+}
+.menu {
+	background: #fefefe;
+	padding: 15px 0;
+	border: none;
+	box-shadow: 0 0 5px rgba(0,0,0,0.19);
+}
+
+.navbar-brand {
+	padding-right: 55px;
+
+}
+.navbar-brand img {
+	width: 120px;
+	height: 120px;
+	position: relative;
+	top: -47px;
+}
+.navbar-default .navbar-nav > li > a {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #8d8c8c;
+}
+.navbar-default .navbar-nav:not(.navbar-right) > li > a:hover, .active-link {
+	color: #8d8c8c;
+	border-bottom: 1px solid #d42819;
+}
+.active-link:hover {
+	border: none;
+}
+.navbar-right li a {
+	padding: 15px 3px;
+}
+nav .container {
+	position: relative;
+}
+.globe {
+	color: #8d8c8c;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	font-size: 26px;
+	cursor: pointer;
+	display: none;
+}
+@media only screen and (max-width: 992px){
+	.navbar-brand {
+		padding-right: 10px;
+	}
+	.icons {
+		display: none;
+		position: absolute;
+		right: 31px;
+		top: 40px;
+	}
+	.icons li {
+		float: none;
+	}
+	.icons li a {
+		padding: 3px;
+	}
+	.globe {
+		display: block;
+	}
+	.clearfix {
+		text-align: center;
+		border-bottom: 1px solid #b7b6b6;
+		padding-bottom: 15px;
+	}
+}
+@media only screen and (min-width: 993px){
+	.icons {
+		display: block !important;
+	}
+}
+@media only screen and (max-width: 767px){
+	content .head1 {
+		font-size: 25px;
+	}
+	.globe {
+		display: none;
+	}
+	.navbar-brand img {
+		width: 60px;
+		height: 60px;
+		position: relative;
+		top: -20px;
+	}
+	.menu {
+		padding: 0;
+	}
+	.navbar-default .navbar-nav:not(.navbar-right) > li > a:hover, .navbar-default .navbar-nav .active-link a {
+		color: #ffffff;
+		border-bottom: none;
+		background: #d42819;
+	}
+	.icons {
+		width: 100%;
+		display: block;
+		position: relative;
+		top: 0px;
+		left: 10px;
+	}
+	.icons li {
+		float: left;
+	}
+
+}
+.head1 {
+	font-size: 33px;
+	text-align: center;
+}
+.head1 span {
+	color: #d42819;
+}
+.card-head {
+	font-size: 16px;
+}
+.card-theam {
+	font-size: 12px;
+}
+.card a img {
+	box-shadow: 0 0 5px rgba(0,0,0,0.19);
+}
+.card a:hover img {
+	opacity: 0.5;
+	box-shadow: 0 0 5px rgba(0,0,0,0.70);
+	transition: all 0.3s;
+}
+.col-md-3 {
+	margin-top: 45px;
+}
+.pagi-nav {
+	margin-top: 40px;
+	text-align: center;
+}
+.pagi-nav .pagebutton {
+	background-color: #eeeded;
+}
+.pagination li a{
+	color:#b3b3b3;
+}
+.pagination li .active {
+	color: #da564e;
+	background: #eeeded;
+}
+.pagination li a:hover, .pagination li .active {
+	color: #da564e;
+}
+footer {
+	margin: 45px 0 100px;
+	border-top: 1px solid #b7b6b6;
+	overflow: hidden;
+}
+footer p {
+	font-size: 12px;
+	margin-top: 17px;
+	float: right;
+}
